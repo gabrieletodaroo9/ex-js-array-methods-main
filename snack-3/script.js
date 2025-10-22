@@ -5,7 +5,7 @@ const numbers = [2, 8, 4, 7, 2, 87];
 
 // FOR EACH
 
-newArray=[]
+const newArray=[]
 
 numbers.forEach( num => {
     const numPlusOne = ++num
@@ -16,7 +16,7 @@ console.log(newArray);
 
 // FOR
 
-newArray2 = []
+const newArray2 = []
 
 for( let i = 0;i < numbers.length;i++){
     number = numbers[i]

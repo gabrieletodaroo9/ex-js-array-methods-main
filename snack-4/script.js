@@ -7,3 +7,34 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+
+// FOR EACH
+
+const authorArray = []
+
+posts.forEach(post=>{
+authorArray.push(post.author)
+
+
+})
+console.log(authorArray);
+
+// FOR 
+
+const authorArray2 = []
+
+for(i = 0; i < posts.length; i++){
+  const post = posts[i]
+  authorArray2.push(post["author"])
+}
+console.log(authorArray2);
+
+
+
+// MAP
+
+const authorArray3 = posts.map(post =>{
+  return post.author
+})
+console.log(authorArray3);
+
